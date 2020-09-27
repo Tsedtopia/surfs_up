@@ -26,7 +26,7 @@ if __name__ == "__main__":
 else:
     print("example is being imported")
 app = Flask(__Welcome__)
-@app.route("/")
+//  @app.route("/")
 def welcome():
     return(
     '''
@@ -37,7 +37,7 @@ def welcome():
     /api/v1.0/tobs
     /api/v1.0/temp/start/end
     ''')
-    flask run
+flask run
 app = Flask(__precipitation__)
 @app.route("/api/v1.0/precipitation")  
 def precipitation():
